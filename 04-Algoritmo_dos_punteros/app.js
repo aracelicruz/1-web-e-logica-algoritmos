@@ -1,4 +1,4 @@
-const invitados = ["Jennifer", "Esther", "Araceli", "Luisa", "Ana", "Jamileth", "Eduardo", "Emanuel"];
+const invitados = ["Gustavo", "Karen", "Nancy", "Luisa", "Ana", "Lucas", "Guillermo", "Karina"];
 
 function encontrarParejas(arr) {
     let inicio = 0;
