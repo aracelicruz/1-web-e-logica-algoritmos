@@ -34,7 +34,7 @@ const mostrarLista = () => {
     }
 };
 
-// Ejemplo de uso:
+// Estos valores son que se deberan cambiar para modificar la lista de compras. 
 agregarProducto("Mantequilla");
 agregarProducto("cafe");
 agregarProducto("cafe");
