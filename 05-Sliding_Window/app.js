@@ -18,5 +18,5 @@ function findLongestWord(text) {
 }
 
 // Ejemplo de uso
-const text = "JavaScript es un lenguaje de programación increíble para aprender.";
+const text = "El esternocleidomastoideo es un músculo del cuello que ayuda a mover la cabeza.";
 console.log(findLongestWord(text)); // Resultado esperado: "programación"
