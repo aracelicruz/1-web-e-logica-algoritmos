@@ -35,14 +35,14 @@ const mostrarLista = () => {
 };
 
 // Ejemplo de uso:
-agregarProducto("Leche");
-agregarProducto("Pan");
-agregarProducto("Huevos");
-agregarProducto("Leche"); // Producto duplicado
+agregarProducto("Mantequilla");
+agregarProducto("cafe");
+agregarProducto("cafe");
+agregarProducto("azucar"); 
 
 mostrarLista();
 
-eliminarProducto("Pan");
-eliminarProducto("Carne"); // Producto no existente
+eliminarProducto("azucar");
+eliminarProducto("pan");
 
 mostrarLista();
