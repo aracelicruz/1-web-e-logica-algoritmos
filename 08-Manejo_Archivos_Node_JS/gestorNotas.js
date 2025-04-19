@@ -26,9 +26,8 @@ function agregarNota(titulo, contenido) {
   console.log('Nota agregada con éxito.');
 }
 
-/**
- * Lista todas las notas guardadas.
- */
+//Lista todas las notas guardadas.
+
 function listarNotas() {
   if (fs.existsSync(filePath)) {
     const data = fs.readFileSync(filePath, 'utf8');
@@ -68,6 +67,9 @@ function eliminarNota(titulo) {
 agregarNota('correo', 'revisar status de beca');
 agregarNota('tarea', 'realizar el proyecto de dev.');
 listarNotas();
+
+//para elimiar una nota en espcifica coloca el titulo de la nota
+
 //eliminarNota('Compras');
 
 
